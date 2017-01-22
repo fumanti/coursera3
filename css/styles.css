@@ -1,0 +1,94 @@
+* {
+	padding: 0px; 
+	margin:0px;
+	font-family: "Merienda", sans-serif;
+	font-size: 16px;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.page-title {
+	font-size: 1.75em;
+	color: darkslategrey;
+}
+
+.section {
+	margin-top: 40px;
+	background-color: olive;
+	color: darkslategrey;
+}
+
+.section-head{
+	padding:30px 0;
+	font-family: "Lemon", sans-serif;
+	font-size:1.25em;
+	font-weight: bold;
+	color: darkslategrey;
+}
+
+.section-text{
+	padding: 0 20px 0;
+	font-family: "Merienda", sans-serif;
+}
+
+.container-fluid .navbar-header, .container-fluid .navbar-collapse {
+	background-color: darkseagreen;
+	margin:0;
+	border:0;
+}
+
+.navbar-default {
+	border-radius: 0;
+	border: 0;
+	border-bottom: solid 1px darkslategrey;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid darkslategrey;
+}
+
+.navbar-header button.navbar-toggle:focus, .navbar-header .icon-bar:focus {
+	border: 1px solid darkslategrey;
+	background-color: darkseagreen;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header .icon-bar:hover {
+	background-color: teal;
+}
+
+ul.nav {
+	padding: 0px;
+	margin: 0px; 
+}
+
+ul.nav li {
+	background-color: gainsboro;
+	vertical-align: middle;
+	border-top: solid 1px darkslategrey;
+}
+
+ul.nav li:hover {
+	background-color: teal;
+}
+
+.container-fluid .navbar-collapse {
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu-main {
+	padding: 10px 30px;
+	float: left;
+	font-size: 1.95em;
+	color: darkslategrey;
+}
+
+@media (max-width: 767px) {
+	.section {
+		margin: 40px 50px;
+	}
+}
+
